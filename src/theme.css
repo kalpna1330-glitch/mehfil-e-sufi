@@ -1,0 +1,60 @@
+:root {
+  /* Common typography and sizing */
+  --font-serif: Georgia, "Noto Sans Devanagari", "Noto Sans Gurmukhi", serif;
+
+  /* === LIGHT THEME (रॉयल एमराल्ड और गोल्ड) === */
+  --bg-shell: #faf6ee;
+  --bg-card: #ffffff;
+  --bg-card-alt: #fdfaf3;
+  --brand-bg: linear-gradient(135deg, #103b2d 0%, #174c3a 50%, #0d3427 100%);
+  --brand-border: #d4af37;
+  --brand-text: #fdfaf3;
+  --brand-subtext: #eed594;
+  --text-main: #1f3026;
+  --text-muted: #5e7266;
+  --border-color: #e5dabf;
+  --border-gold: #cfa851;
+  --accent-gold: #d4af37;
+  --accent-gold-text: #17382c;
+  --btn-primary-bg: #174c3a;
+  --btn-primary-text: #faf7ef;
+  --btn-tab-bg: #fffdf8;
+  --btn-tab-text: #174c3a;
+  --lyrics-bg: #ffffff;
+  --lyrics-color: #1a2a20;
+  --input-bg: #ffffff;
+  --input-border: #ded3b6;
+  --card-shadow: 0 3px 12px rgba(23, 76, 58, 0.07);
+  --gold-glow: 0 0 14px rgba(212, 175, 55, 0.45);
+}
+
+[data-theme="dark"] {
+  /* === DARK THEME (डार्क महफ़िल / Black, Deep Emerald & Gold) === */
+  --bg-shell: #0a130f;
+  --bg-card: #12211a;
+  --bg-card-alt: #162920;
+  --brand-bg: linear-gradient(135deg, #091712 0%, #0e291e 50%, #081510 100%);
+  --brand-border: #e2ba52;
+  --brand-text: #fffaf0;
+  --brand-subtext: #e2ba52;
+  --text-main: #f3ecdd;
+  --text-muted: #9eb5a7;
+  --border-color: #243c30;
+  --border-gold: #d4af37;
+  --accent-gold: #e2ba52;
+  --accent-gold-text: #0b1a13;
+  --btn-primary-bg: #1d4636;
+  --btn-primary-text: #faf7ef;
+  --btn-tab-bg: #13221b;
+  --btn-tab-text: #d4af37;
+  --lyrics-bg: #0f1c16;
+  --lyrics-color: #f7eedb;
+  --input-bg: #13221b;
+  --input-border: #2c4739;
+  --card-shadow: 0 4px 18px rgba(0, 0, 0, 0.5);
+  --gold-glow: 0 0 16px rgba(226, 186, 82, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}

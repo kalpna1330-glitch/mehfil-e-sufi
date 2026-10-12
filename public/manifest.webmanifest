@@ -1,0 +1,30 @@
+{
+  "name": "Mehfil-e-Sufi",
+  "short_name": "Mehfil-e-Sufi",
+  "description": "Offline Qawwali and Sufi lyrics library",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a130f",
+  "theme_color": "#174C3A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-mark.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

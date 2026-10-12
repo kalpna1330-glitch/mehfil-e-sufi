@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-shell, #faf6ee);
+  color: var(--text-main, #1f3026);
+  font-family: Georgia, "Noto Sans Devanagari", "Noto Sans Gurmukhi", serif;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
