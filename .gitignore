@@ -19,6 +19,8 @@ dist-ssr
 
 # Local backups & archives
 *.zip
+*.bat
+*.cmd
 
 # Editor directories and files
 .vscode/*
